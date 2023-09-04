@@ -4,14 +4,17 @@
 -- import: jahanvir.github.io/challenge-9/posts/post4
 -- import: jahanvir.github.io/challenge-9/posts/post5
 -- import: jahanvir.github.io/challenge-9/posts/post6
+-- import: fastn-community.github.io/footer
 
 -- doc-page.page: Blog
 sidebar: false
+show-footer: true
 blog: true
 full-width: true
 document-title: fastn midnight-rush Template. Build Your Own Website with Ease
 document-description: Simple, easy-to-use midnight-rush template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
 ;; document-image: https://fastn-community.github.io/midnight-rush/-/fastn-community.github.io/midnight-rush/static/midnight-rush-og-image.jpg
+
 
 -- doc-page.page.hero:
 
@@ -21,6 +24,16 @@ cta-primary: Read more
 cta-primary-url: posts/post1/
 
 -- end: doc-page.page.hero
+
+-- doc-page.page.footer:
+
+-- footer.basic-footer:
+;; footer-list: $common.sitemap.sections
+site-logo: $assets.files.assets.ipsum-logo.svg
+site-url: /
+copyright: Copyright © 2023 - [FifthTry.com](https://www.fifthtry.com/)
+
+-- end: doc-page.page.footer
 
 -- doc-page.page.body:
 
@@ -50,5 +63,18 @@ post-data: $post6.meta
 -- doc-page.newsletter: Freakishly simple. Downright useful. Ready to make the jump?
 
 Sign up in 2 minutes
+
+;; -- doc-page.page.footer:
+
+;; -- footer.basic-footer:
+;; footer-list: $common.sitemap.sections
+;; site-logo: https://fastn.com/-/fastn.io/images/fastn.svg
+;; site-url: /
+;; copyright: Copyright © 2023 - [FifthTry.com](https://www.fifthtry.com/)
+
+;; -- end: doc-page.page.footer
+
+;; -- doc-page.page.footer:
+
 
 -- end: doc-page.page
