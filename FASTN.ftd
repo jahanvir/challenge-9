@@ -1,18 +1,27 @@
 -- import: fastn
 
--- fastn.package: <user_name>.github.io/<repo_name>
-favicon: /-/<user_name>.github.io/<repo_name>/favicon.ico
+-- fastn.package: jahanvir.github.io/challenge-9
+favicon: /-/jahanvir.github.io/challenge-9/favicon.ico
 
--- fastn.dependency: fastn-community.github.io/doc-site as doc-site
+;; -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
+-- fastn.dependency: fastn-community.github.io/midnight-rush/ as rush-site
+-- fastn.dependency: fastn-community.github.io/midnight-rush-cs/ as rush-theme
+-- fastn.dependency: fastn-community.github.io/midnight-rush-typography as rush-typo
+-- fastn.dependency: fastn-community.github.io/dark-mode-switcher as darkmode
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
 
--- fastn.auto-import: <user_name>.github.io/<repo_name>/FASTN/ds
--- fastn.auto-import: <user_name>.github.io/<repo_name>/assets
--- fastn.auto-import: doc-site
+;; -- fastn.auto-import: jahanvir.github.io/challenge-9/FASTN/ds
+;; -- fastn.auto-import: jahanvir.github.io/challenge-9/assets
+-- fastn.auto-import: rush-site
+-- fastn.auto-import: rush-theme
+-- fastn.auto-import: rush-typo
+-- fastn.auto-import: darkmode
 
 -- fastn.sitemap:
 
 # Home: index.html
+# Blog: /blog/
+# Landing: /landing/
 
 - Right Sidebar Sample: /sidebar/
