@@ -1,0 +1,35 @@
+-- import: jahanvir.github.io/challenge-9/author
+
+-- common.post-meta meta: Morbi eu risus nulla. Aliquam erat volutp nullam vitae ex id justo modo facilisis.
+published-on: July 22, 2014 at 10:02 pm
+;; post-image: $assets.files.static.image.svg
+post-image: https://img.freepik.com/free-vector/girl-with-number-four-cartoon_1308-100254.jpg?w=2000
+post-url: /posts/post4
+author: $author.jahanvi
+;; social-list: $common.share-links
+
+;; -- doc-page.page:
+;; sidebar: false
+;; blog: true
+;; full-width: true
+
+-- doc-page.post: 
+meta: $meta
+
+-- doc-page.image: 
+src: https://img.freepik.com/free-vector/girl-with-number-four-cartoon_1308-100254.jpg?w=2000
+width.fixed.px: 100
+height.fixed.px: 100
+
+-- doc-page.markdown:
+
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+adipisci velit, sed.
+
+-- end: doc-page.post
