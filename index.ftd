@@ -2,8 +2,8 @@
 -- import: fastn-community.github.io/footer
 
 -- doc-page.page: Welcome to my Blog Page
-document-title: 
-document-description: Visit Blog page
+document-title: Fastn Blog challenge-9
+document-description: Visit Blog page to see fastn challenge-9
 ;; document-image: https://fastn-community.github.io/midnight-rush/-/fastn-community.github.io/midnight-rush/static/midnight-rush-og-image.jpg
 site-name: NULL
 site-logo: $logo
