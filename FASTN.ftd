@@ -4,19 +4,18 @@
 favicon: /-/jahanvir.github.io/challenge-9/favicon.ico
 
 ;; -- fastn.dependency: fastn-community.github.io/doc-site as doc-site
--- fastn.dependency: fastn-community.github.io/midnight-rush/ as rush-site
--- fastn.dependency: fastn-community.github.io/midnight-rush-cs/ as rush-theme
--- fastn.dependency: fastn-community.github.io/midnight-rush-typography as rush-typo
+-- fastn.dependency: fastn-community.github.io/midnight-rush
 -- fastn.dependency: fastn-community.github.io/dark-mode-switcher as darkmode
 -- fastn.dependency: fastn-community.github.io/footer
 -- fastn.dependency: fastn-community.github.io/roboto-typography
+;; -- fastn.dependency: fastn-community.github.io/midnight-rush/blog-articles/category-1/sample-post-2
+;; -- fastn.dependency: fastn-community.github.io/midnight-rush/blog-articles/category-2/sample-post-3
+;; -- fastn.dependency: fastn-community.github.io/midnight-rush/blog-articles/category-2/sample-post-4
 
 ;; -- fastn.auto-import: jahanvir.github.io/challenge-9/FASTN/ds
-;; -- fastn.auto-import: jahanvir.github.io/challenge-9/assets
--- fastn.auto-import: rush-site
--- fastn.auto-import: rush-theme
--- fastn.auto-import: rush-typo
--- fastn.auto-import: darkmode
+-- fastn.auto-import: jahanvir.github.io/challenge-9/assets
+-- fastn.auto-import: fastn-community.github.io/midnight-rush as doc-page
+-- fastn.auto-import: fastn-community.github.io/midnight-rush/common
 
 -- fastn.sitemap:
 

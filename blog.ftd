@@ -1,0 +1,54 @@
+-- import: jahanvir.github.io/challenge-9/posts/post1
+-- import: jahanvir.github.io/challenge-9/posts/post2
+-- import: jahanvir.github.io/challenge-9/posts/post3
+-- import: jahanvir.github.io/challenge-9/posts/post4
+-- import: jahanvir.github.io/challenge-9/posts/post5
+-- import: jahanvir.github.io/challenge-9/posts/post6
+
+-- doc-page.page: Blog
+sidebar: false
+blog: true
+full-width: true
+document-title: fastn midnight-rush Template. Build Your Own Website with Ease
+document-description: Simple, easy-to-use midnight-rush template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
+;; document-image: https://fastn-community.github.io/midnight-rush/-/fastn-community.github.io/midnight-rush/static/midnight-rush-og-image.jpg
+
+-- doc-page.page.hero:
+
+-- doc-page.featured-post:
+post-data: $post1.meta
+cta-primary: Read more
+cta-primary-url: posts/post1/
+
+-- end: doc-page.page.hero
+
+-- doc-page.page.body:
+
+This is sample Blog page
+
+-- doc-page.posts:
+
+-- doc-page.h2: Latest Blogs
+
+-- doc-page.post-card:
+post-data: $post2.meta
+
+-- doc-page.post-card:
+post-data: $post3.meta
+
+-- doc-page.post-card:
+post-data: $post4.meta
+
+-- doc-page.post-card:
+post-data: $post5.meta
+
+-- doc-page.post-card:
+post-data: $post6.meta
+
+-- end: doc-page.posts
+
+-- doc-page.newsletter: Freakishly simple. Downright useful. Ready to make the jump?
+
+Sign up in 2 minutes
+
+-- end: doc-page.page
