@@ -1,9 +1,13 @@
-;; -- page: Overview
-;; document-title: fastn midnight-rush Template. Build Your Own Website with Ease
-;; document-description: Simple, easy-to-use midnight-rush template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
+-- ftd.image-src logo: https://cdn.icon-icons.com/icons2/2389/PNG/512/sprint_logo_icon_144855.png
+
+-- doc-page.page: Welcome to my Blog Page
+document-title: 
+document-description: Visit Blog page
 ;; document-image: https://fastn-community.github.io/midnight-rush/-/fastn-community.github.io/midnight-rush/static/midnight-rush-og-image.jpg
-;; site-name: NULL
-;; github-url: https://github.com/fastn-community/midnight-rush/
-;; github-icon: true
-;; sidebar: true
-;; -- end: page
+site-name: NULL
+site-logo: $logo
+github-url: https://github.com/
+github-icon: true
+
+
+

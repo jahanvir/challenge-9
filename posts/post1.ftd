@@ -1,0 +1,36 @@
+-- import: jahanvir.github.io/challenge-9/author
+
+-- ftd.image-src pi:https://static.vecteezy.com/system/resources/previews/000/554/397/original/1-number-one-logo-text-graphic-vector.jpgw=10
+
+-- common.post-meta meta: Morbi eu risus nulla. Aliquam erat volutp nullam vitae ex id justo modo facilisis.
+published-on: Sep 4, 2023 at 10:02 pm
+post-image: https://static.vecteezy.com/system/resources/previews/000/554/397/original/1-number-one-logo-text-graphic-vector.jpg
+post-url: /posts/post1
+author: $author.jahanvi
+;; social-list: $common.share-links
+
+;; -- doc-page.page:
+;; sidebar: false
+;; blog: true
+;; full-width: true
+
+-- doc-page.post: 
+meta: $meta
+
+-- doc-page.image: 
+src: https://static.vecteezy.com/system/resources/previews/000/554/397/original/1-number-one-logo-text-graphic-vector.jpg
+width.fixed.px: 100
+height.fixed.px: 100
+
+-- doc-page.markdown:
+
+
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim
+ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
+adipisci velit, sed.
+
+-- end: doc-page.post

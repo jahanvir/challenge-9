@@ -1,0 +1,21 @@
+;; -- import: fastn-community.github.io/midnight-rush/common
+
+-- common.author-meta jahanvi: Jahanvi R.
+profile: Software Developer
+;; bio-url:  #
+image: $assets.files.assets.j.svg
+company: XVY Pvt. Ltd.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+
+;; -- doc-page.page: 
+;; sidebar: false
+;; document-title: fastn midnight-rush Template. Build Your Own Website with Ease
+;; document-description: Simple, easy-to-use midnight-rush template to build your own documentation website, personal website, or blog. Change colours and typography effortlessly.
+;; document-image: https://fastn-community.github.io/midnight-rush/-/fastn-community.github.io/midnight-rush/static/midnight-rush-og-image.jpg
+
+;; -- doc-page.author-bio: 
+;; author: $jahanvi
+
+;; -- end: doc-page.page
